@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CounterModule } from './counter/components/counter.module';
 import { HeroesModule } from './heroes/components/heros.module';
+import { DbzModule } from './dbz/dbz.module';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { HeroesModule } from './heroes/components/heros.module';
     AppRoutingModule,
     CounterModule,
     HeroesModule,
+    DbzModule
   ],
   providers: [
     provideClientHydration()
